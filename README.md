@@ -7,9 +7,9 @@ The motivation is to explore the differences between imperative
 ant functional ways to iterate through the array.
 
 Currently you might check out the following implementations:
--- for
--- Array.prototype.forEach
--- Array.prototype.reduce in ES2015
+- for
+- Array.prototype.forEach
+- Array.prototype.reduce in ES2015
 
 #### To run tests:
 
@@ -20,6 +20,6 @@ $ node tests/for-test.js                                # for the rest
 ```
 
 #### Todo:
--- while
--- Array.prototype.map
--- Better tests
+- while
+- Array.prototype.map
+- Better tests
