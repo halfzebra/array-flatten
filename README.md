@@ -1,25 +1,24 @@
 ### Array flatten implementations in JavaScript
 
 This repository is dedicated to different implementations
-of array flatten.
+of array flatten in ES2015.
 
 The motivation is to explore the differences between imperative
-ant functional ways to iterate through the array.
+ant functional ways to implement array flattening algorithms.
 
 Currently you might check out the following implementations:
-- for
+- for loop
 - Array.prototype.forEach
-- Array.prototype.reduce in ES2015
+- Array.prototype.map
+- Array.prototype.reduce
 
 #### To run tests:
 
 ```sh
 $ npm i
-$ node_modules/.bin/babel-node tests/reduce-es6-test.js # for ES2015
-$ node tests/for-test.js                                # for the rest
+$ npm test
 ```
 
 #### Todo:
-- while
-- Array.prototype.map
-- Better tests
+- while loop
+- Cover all examples with tests
