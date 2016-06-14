@@ -1,9 +1,14 @@
-module.exports = function flatten (input) {
+module.exports = function flatten(input) {
+    var result = [];
+    input.map(function recurs(n) {
+        if (Array.isArray(n))
+            result.concat(n.map(recurs));
+        else
+            result.push(n);
 
 
-var output = [];
-input.map(function recurs(n) {
-    Array.isArray(n) ? output.concat(n.map(recurs)) : output.push(n);
+    });
+    return result;
+};
 
-    return output;
-})};
+
