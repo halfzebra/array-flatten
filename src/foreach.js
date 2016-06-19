@@ -1,15 +1,15 @@
 export default function flatten (input) {
 
-  var result = [];
+  let result = [];
 
-  input.forEach(function (element) {
-    if (Array.isArray(element) === true) {
-      var arr = flatten(element);
+  input.forEach(function (value) {
+    if (Array.isArray(value) === true) {
+      let arr = flatten(value);
       arr.forEach(function (temp) {
         result.push(temp);
       })
     } else {
-      result.push(element);
+      result.push(value);
     }
   });
 

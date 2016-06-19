@@ -1,10 +1,10 @@
 export default function flatten (input) {
-    var result = [];
-    input.map(function recurs (n) {
-        if (Array.isArray(n)) {
-            result.concat(n.map(recurs))
+    let result = [];
+    input.map(function recurs (value) {
+        if (Array.isArray(value)) {
+            result.concat(value.map(recurs))
         } else {
-            result.push(n)
+            result.push(value)
         }
     });
     return result;

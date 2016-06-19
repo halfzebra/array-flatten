@@ -1,13 +1,13 @@
 export default function flatten (input) {
-  var result = [];
+  let result = [];
 
-  for (var i = 0; i < input.length; i++) {
+  for (let i = 0; i < input.length; i++) {
 
     if (Array.isArray(input[ i ]) === true) {
 
-      var arr = flatten(input[ i ]);
+      let arr = flatten(input[ i ]);
 
-      for (var k = 0; k < arr.length; k++) {
+      for (let k = 0; k < arr.length; k++) {
         result.push(arr[ k ]);
       }
 
