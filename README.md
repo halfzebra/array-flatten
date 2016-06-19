@@ -1,5 +1,7 @@
 ### Array flatten implementations in JavaScript
 
+[![Build Status](https://travis-ci.org/halfzebra/array-flatten-javascript.svg?branch=master)](https://travis-ci.org/halfzebra/array-flatten-javascript)
+
 This repository is dedicated to different implementations
 of array flatten in ES2015.
 
