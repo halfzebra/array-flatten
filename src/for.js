@@ -1,4 +1,4 @@
-module.exports = function flatten (input) {
+export default function flatten (input) {
   var result = [];
 
   for (var i = 0; i < input.length; i++) {
