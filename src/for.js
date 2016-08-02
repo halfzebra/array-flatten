@@ -17,4 +17,4 @@ export default function flatten (input) {
   }
 
   return result;
-};
+}

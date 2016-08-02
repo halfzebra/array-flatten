@@ -23,7 +23,6 @@ $ npm test
 
 #### Todo:
 - while loop
-- Cover all examples with tests
 
 [for]: <https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/for>
 [forEach]: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach>
