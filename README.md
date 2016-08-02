@@ -21,6 +21,14 @@ $ npm i
 $ npm test
 ```
 
+#### Checking test coverage:
+
+It is possible to check test covarega with [isparta](https://github.com/douglasduteil/isparta)
+
+```sh
+$ npm run coverage
+```
+
 #### Todo:
 - while loop
 
